@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: 100px;
+    width: 300px;
+    height: 530px;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: -1px -1px 15px 10px rgb(228, 228, 255);
+}
+
+.first img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: -1px -1px 0px 10px rgb(192, 192, 255);
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+}
+
+.first p {
+    margin-left: 15px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.friends {
+    color: gray;
+}
+
+.btn {
+    display: grid;
+    place-content: center;
+    padding-top: 20px;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 255, 0.142);
+}
+
+.items img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.items p {
+    margin-left: 20px;
+}
